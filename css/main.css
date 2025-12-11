@@ -23,7 +23,7 @@ html {
 }
 
 nav {
-    background-color: chocolate;
+    background-color: rgb(60, 92, 165);
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ nav li {
 nav a {
     padding: 20px;
     display: inline-block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -48,7 +48,7 @@ nav a:visited {
 nav a:hover,
 nav a:active {
 background-color: bisque;
-color: coral;
+color: rgb(60, 92, 165)
 text-decoration: underline;
 }
 
@@ -116,9 +116,7 @@ blockquote {
     height: 280px;
     padding-top: 75px 16px 0 20px;
     border-radius: 50%;
-    background-color: chocolate;
-    outline: dotted 6px coral;
-    outline-offset: 10px;
+    background-color: rgb(60, 92, 165)
     font-family: "Momo Trust Display", sans-serif;
     font-size: 1rem;
     margin: 40px auto;
@@ -129,7 +127,7 @@ blockquote small {
 }
 
 footer {
-    background-color: chocolate;
+    background-color:rgb(60, 92, 165)
     color: white;
     padding: 2% 0;
     margin-top: 10px;
