@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  background-color: #9cc3d5;
+  background-color: #9cc3d5; /* fallback color */
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,42 +37,42 @@ body {
 }
 
 nav {
-  background-color: rgb(60, 92, 165);
   text-align: center;
-  padding: 1rem 0;
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
+  margin-bottom: 3.5rem;
 }
 
 nav li {
   display: inline;
-  margin-right: 8px;
 }
-
+nav li {
+    display: inline;
+}
+nav {
+    background-color: rgb(60, 92, 165);
+    text-align: center;
+}
 nav a {
-  padding: 12px 16px;
-  display: inline-block;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 8px;
-  text-decoration: none;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  transition: 0.3s ease;
+    padding: 30px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
 nav a:hover,
 nav a:active {
-  background-color: rgb(37, 231, 19);
-  color: rgb(60, 92, 165);
-  text-decoration: underline;
+background-color: rgb(37, 231, 19);
+color: rgb(60, 92, 165)
+text-decoration: underline;
 }
 
-.invite {
+.policies {
   margin-bottom: 2rem;
 }
 
