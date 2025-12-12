@@ -14,7 +14,23 @@ html {
 *::after {
   box-sizing: border-box;
 }
+:root {
+  --main-font: Arial, Helvetica, sans-serif;
+  --heading-font: 'Momo TRust Display', sans-serif;
+  --text-color: #ffffff;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--text-color);
+}
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+}
+body {
+  font-family: var(--main-font);
+  color: var(--text-color);
+}
 html {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;

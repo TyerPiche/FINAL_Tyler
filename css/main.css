@@ -8,8 +8,7 @@
 
 html {
   box-sizing : border-box ;
-.rubik-dirt-regular {
-  font-family: "Rubik Dirt", system-ui;
+    font-family: "Momo Trust Display", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.20rem;
@@ -21,6 +20,27 @@ html {
 * :: before ,
 * :: after {
   box-sizing : inherit ;
+}
+:root {
+  --main-font: Arial, Helvetica, sans-serif;
+  --heading-font: 'Momo TRust Display', sans-serif;
+  --text-color: #ffffff;
+}
+body {
+  font-family: var(--main-font);
+  color: var(--text-color);
+}
+
+h1, h2, {
+  font-family: var(--heading-font);
+}
+body {
+  font-family: var(--main-font);
+  color: var(--text-color);
+}
+
+h1, h2, {
+  font-family: var(--heading-font);
 }
 
 nav {
@@ -58,6 +78,7 @@ main {
     margin: 0% auto;
 
 }
+
 body {
   background-color: #9cc3d5; /* fallback color */
   background-position: top;
@@ -86,8 +107,8 @@ img {
     margin-left: 10%;
     margin-right: 10%;
     border-radius: 50%;
-    box-shadow: 5px 5px 3px #ccc;
-    shape-outside: circle(65%);
+    box-shadow: 5px 5px 3px #e1e1e1;
+    shape-outside: circle(50%);
 }
 
 header h2{
@@ -100,10 +121,6 @@ header h2{
     font-size: 1.2rem;
 }
 
-.emoji::after {
-    content: "\1f370";
-}
-
 .why,
 .where,
 .how,
@@ -112,8 +129,9 @@ header h2{
     float: left;
 }
 
-.details,
+.why,
 .how,
+.where,
 {
     margin-right: 16%;
     margin-left: 2%;
