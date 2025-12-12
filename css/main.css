@@ -68,7 +68,7 @@ nav a:visited {
 
 nav a:hover,
 nav a:active {
-background-color: rgb(37, 231, 19);
+background-color: rgb(99, 99, 99);
 color: rgb(60, 92, 165)
 text-decoration: underline;
 }

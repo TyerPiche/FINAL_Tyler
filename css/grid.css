@@ -47,8 +47,8 @@ nav a {
 
 nav a:hover,
 nav a:active {
-    background-color: rgb(37, 231, 19);
-    color: rgb(60, 92, 165);
+    background-color: rgb(99, 99, 99);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
 }
 .div1 span {
