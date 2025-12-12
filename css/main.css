@@ -32,12 +32,12 @@ nav li {
 }
 
 nav a {
-    padding: 20px;
+    padding: 30px;
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 }
 
 nav a:link,
@@ -100,14 +100,15 @@ header h2{
 
 .why,
 .where,
-.instructions,
-.nutrition {
+.how,
+{
     width: 100%;
     float: left;
 }
 
 .details,
-.instructions {
+.how,
+{
     margin-right: 16%;
     margin-left: 2%;
 }
@@ -147,13 +148,6 @@ footer ul {
     list-style: none;
 }
 
-.col1,
-.col2,
-.col3 {
-    display: block;
-    float: left;
-    width: 30%;
-}
 
 footer p {
     clear: both;
@@ -181,15 +175,9 @@ main {
     width: 90%;
 }
 
-h1 {
-    font-size: 1.9rem;
-    margin: 6% 0;
-    text-align: center;
-    text-shadow: 3px 5px 3px #ccc;
-}
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 Img {
@@ -204,18 +192,10 @@ Img {
 
 .why,
 .where,
-.instructions,
-.nutrition {
+.how,
+{
     width: 90%;
     float:  none;
 }
 
-.col1,
-.col2,
-.col3 {
-    display: block;
-    float: none;
-    width: 80%;
-    font-size: .9rem;
-}    
 
