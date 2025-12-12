@@ -31,7 +31,12 @@ nav a:link,
 nav a:visited {
     text-decoration: none;
 }
-
+body {
+  background-color: #9cc3d5; /* fallback color */
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 nav a:hover,
 nav a:active {
 background-color: rgb(37, 231, 19);
