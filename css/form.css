@@ -87,11 +87,12 @@ nav a:visited {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+
 nav a:hover,
 nav a:active {
-background-color: rgb(99, 99, 99);
-color: rgb(60, 92, 165)
-text-decoration: underline;
+    background-color: rgb(99, 99, 99);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
 }
 
 .policies {
