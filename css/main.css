@@ -13,7 +13,7 @@ html {
   font-style: normal;
   font-size: 1.20rem;
   line-height: 125%; 
-  color: #ffffff;
+  color: #faf8f8;
  }
 
 * ,
@@ -24,11 +24,12 @@ html {
 :root {
   --main-font: Arial, Helvetica, sans-serif;
   --heading-font: 'Momo TRust Display', sans-serif;
-  --text-color: #ffffff;
+  --text-color: #f6f4f4;
 }
 body {
   font-family: var(--main-font);
   color: var(--text-color);
+  background-color: #9cc3d5;;
 }
 
 h1, h2, {
@@ -37,6 +38,7 @@ h1, h2, {
 body {
   font-family: var(--main-font);
   color: var(--text-color);
+  background-color: #9cc3d5;;
 }
 
 h1, h2, {
